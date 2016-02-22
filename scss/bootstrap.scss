@@ -1,0 +1,158 @@
+@import 'vendors/_bootstrap.scss';
+
+
+
+//Banner Styles
+
+.intro-header {
+    padding-top: 50px; /* If you're making other pages, make sure there is 50px of padding to make sure the navbar doesn't overlap content! */
+    padding-bottom: 50px;
+    text-align: center;
+    color: #f8f8f8;
+    background: url(../img/bg2.jpg) no-repeat center center !important;
+    background-size: cover;
+}
+
+
+
+
+//Nav Styles
+
+.navbar-default {
+    background-color: transparent;
+//    border-bottom: 2px solid #800020;
+    border-bottom: transparent;
+    a {
+        color: white;
+    }
+}
+
+.navbar-default {
+    height: 78px;
+}
+
+.navbar-default .navbar-brand {
+    font-size: 4em;
+    color: lightgray;
+    font-family: 'Oswald', Helvetica, Arial;
+    padding-top: 25px;
+}
+
+.navbar-default .navbar-right li {
+    font-size: 25px;
+    font-family: 'Ubuntu', Helvetica, Arial;
+    padding-top: 12px;
+}
+
+.navbar-default .navbar-nav > li > a {
+    color: white;
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+    color: #800020;
+    //Banner Styles
+}
+
+.intro-message h1 {
+    font-family: 'Oswald', Helvetica, Arial;
+    
+}
+
+.intro-message h3 {
+    font-family: 'Open Sans', Helvetica, Arial;
+}
+
+intro-divider {
+    color: #800020;
+}
+
+intro-social-buttons a:hover {
+    color: #800020;
+}
+
+//About Styles
+
+.col-md-4 {
+    text-align: center;
+}
+
+.photos {
+    float: none;
+    display: block;
+    margin: auto;
+
+img {
+    width: 30%;
+    height: 30%;
+    display: inline;
+    list-style-type: none;
+    float: left;
+    margin: 10px;
+}
+
+li {
+//    width: 90%;
+    margin: auto;
+    list-style-type: none;
+}
+
+
+}
+
+.content-section-b {
+ background-color: darkgray; 
+//    border-bottom: 2px solid #800020;
+    h2 {
+        text-align: center;
+    font-size: 4em;
+        
+    }
+    
+}
+
+.col-lg-12 h2 {
+    text-align: center;
+    font-size: 4em;
+}
+h2 {
+    text-align: center;
+    
+}
+
+
+//Products Styles
+
+
+.content-section-a {
+//    border-bottom: 2px solid #800020;
+}
+
+
+
+
+
+
+
+a:hover {
+    color: #800020;
+}
+
+
+
+
+//Contact Styles 
+
+
+td {
+    font-size: 2em;
+}
+
+//Footer Styles
+footer {
+    background-color: black !important;
+//    border-top: 2px solid #800020;
+}
+
+.footer_text {
+    color: white;
+}
